@@ -6,30 +6,68 @@
 <style>
 body{
         background-color:dodgerblue;
+		margin:0;
 }
 
-img{
+.steam {
         display: block;
         margin-left:auto;
         margin-right:auto;
-        width:128px;
-        height:128px;
+		border-radius: 8px;
 }
 
-h1{
+.intro {
+		color:white;
+		text-align:center;
+}
+
+.stem {
         text-align:center;
         color:white;
         font-family: 'palatino', serif;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
 </style>
 <body>
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li style="float:right"><a href="https://github.com/gsobrevinas/labtwo">About</a></li>
+</ul>
 
-<img src="https://mediaproxy.tvtropes.org/width/350/https://static.tvtropes.org/pmwiki/pub/images/emblem_fontaine.png" alt="Fontaine" >
-
-<h1>City of Fontaine</h1>
-<p>This is a paragraph.</p>
+<div style="padding:20px;margin-top:30px;height:1500px;">
+<h1 class ="stem">The Steambird</h1>
+<img src="https://static.wikia.nocookie.net/gensin-impact/images/d/de/The_Steambird.png/revision/latest/scale-to-width-down/1000?cb=20230816114703" class="steam">
+<p class="intro">The Steambird is the main newspaper in the Court of Fontaine and is read all across Teyvat.</p>
 <h1>Another Heading</h1>
 <h2>Gian Sobrevinas</h2>
-<a href="https://github.com/gsobrevinas/labtwo">La Source</a>
 </body>
 </html>
