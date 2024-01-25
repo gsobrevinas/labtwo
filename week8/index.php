@@ -2,13 +2,13 @@
 <html>
 <head>
 <title>Site Internet de Fontaine</title>
-<link rel="icon" type="image/icon" href="logo.webp" >
+<link rel="icon" type="image/icon" href="./Home/logo.webp" >
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <style>
 body{
-	background-image: url("fontaine2.png");
+	background-image: url("./Home/fontaine2.png");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -85,7 +85,7 @@ section .wave {
   height: 227px;
   bottom: 0;
   left: 0;
-  background: url("wave-large.png");
+  background: url("./Home/wave-large.png");
   animation: move 10s linear infinite;
 }
 
@@ -135,15 +135,15 @@ section .wave::after {
 <div class="nav">  <ul>
   <li><a href="index.php">Home</a></li>
   <li><a href="#news">News</a></li>
-  <li><img src="logo.webp" width="64px" height="64px" ></li>
-  <li><a href="./Furina/Archon.php">Contact</a></li>
-  <li ><a href="./About/About.php">About</a></li>
+  <li><img src="./Home/logo.webp" width="64px" height="64px" ></li>
+  <li><a href="./Home/Furina/Archon.php">Contact</a></li>
+  <li ><a href="./Home/About/About.php">About</a></li>
 </ul>
 </div>
 
 <div style="padding:20px;margin-top:30px;height:25px;">
 <h1 class ="stem">Nouveau à Fontaine!!!</h1>
-<img src="musketeers.webp" class="fontaine" width="250" height="350">
+<img src="./Home/musketeers.webp" class="fontaine" width="250" height="350">
 <p class="intro">Musketeer Productions' film adaptation of the renowned book, Two Musketeers wins the Furina Award</p>
 </div>
 
