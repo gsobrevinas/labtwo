@@ -142,9 +142,8 @@ section .wave::after {
 </div>
 
 <div style="padding:20px;margin-top:30px;height:25px;">
-<h1 class ="stem">Nouveau à Fontaine!!!</h1>
-<img src="./Home/musketeers.webp" class="fontaine" width="250" height="350">
-<p class="intro">Musketeer Productions' film adaptation of the renowned book, Two Musketeers wins the Furina Award</p>
+<h1 class ="stem">Welcome to Fontaine!</h1>
+<p class="intro">This is a website dedicated to showcase the Nation of Fontaine.</p>
 </div>
 
 <section>
