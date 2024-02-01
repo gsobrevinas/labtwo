@@ -2,13 +2,13 @@
 <html>
 <head>
 <title>Site Internet de Fontaine</title>
-<link rel="icon" type="image/icon" href="./Home/logo.webp" >
+<link rel="icon" type="image/icon" href="./Images/logo.webp" >
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <style>
 body{
-	background-image: url("./Home/fontaine2.png");
+	background-image: url("./Home/Images/fontaine2.png");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -70,7 +70,6 @@ body{
   margin-left:auto;
   height: 45px;
   width: 45px;
-
 }
 
 section {
@@ -85,7 +84,7 @@ section .wave {
   height: 227px;
   bottom: 0;
   left: 0;
-  background: url("./Home/wave-large.png");
+  background: url("./Images/wave-large.png");
   animation: move 10s linear infinite;
 }
 
@@ -96,7 +95,7 @@ section .wave::before {
   height: 227px;
   top: 0;
   left: 0;
-  background: url("wave-large.png");
+  background: url("./Images/wave-large.png");
   opacity: 0.4;
   animation: move-reversed 10s linear infinite;
 }
@@ -107,7 +106,7 @@ section .wave::after {
   height: 227px;
   top: 0;
   left: 0;
-  background: url("wave-large.png");
+  background: url("./Images/wave-large.png");
   opacity: 0.5;
   animation-delay: -4s;
   animation: move 10s linear infinite;
@@ -134,10 +133,10 @@ section .wave::after {
 <body>
 <div class="nav">  <ul>
   <li><a href="index.php">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><img src="./Home/logo.webp" width="64px" height="64px" ></li>
-  <li><a href="./Home/Furina/Archon.php">Contact</a></li>
-  <li ><a href="./Home/About/About.php">About</a></li>
+  <li><a href="./News.php">News</a></li>
+  <li><img src="./Images/logo.webp" width="64px" height="64px" ></li>
+  <li><a href="./Archon.php">Contact</a></li>
+  <li ><a href="./About.php">About</a></li>
 </ul>
 </div>
 

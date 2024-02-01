@@ -2,20 +2,22 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me!</title>
-    <link rel="stylesheet" href="style.css">
+    <title>About the Developer</title>
+    <link rel="stylesheet" href="./CSS/About_style.css">
+	<link rel="icon" type="image/icon" href="./Images/logo.webp" >
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+<style>
 
+</style>
 <body>
     <div class="card">
         <div class="img"><img
-                src="gian.jpg"
+                src="./Images/gian.jpg"
                 alt=""></div>
         <span>About Me</span>
-        <p class="info">My name is Gian. I am a college student in Asia Pacific College.</p>
+        <p class="info">My name is Gian. I am a SoCIT student in Asia Pacific College.</p>
         <div class="share">
             <a href="https://github.com/gsobrevinas/labtwo"><svg xmlns="" width="16" height="16" fill="currentColor"
                     class="bi bi-github" viewBox="0 0 16 16">
@@ -42,7 +44,9 @@
                     </path>
                 </svg></a>
         </div>
+		<a href="./index.php">
         <button>Resume</button>
+		<a>
     </div>
 </body>
 <!-- <script src="app.js"></script> -->
