@@ -70,7 +70,7 @@
   <li><a href="./index.php">Home</a></li>
   <li><a href="./News.php">News</a></li>
   <li><img src="./Images/logo.webp" width="64px" height="64px" ></li>
-  <li><a href="./Archon.php">Contact</a></li>
+  <li><a href="./Archon.php">Artworks</a></li>
   <li ><a href="./About.php">About</a></li>
 </ul>
 </div>

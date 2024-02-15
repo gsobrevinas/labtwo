@@ -1,5 +1,4 @@
 <!DOCTYPE HTML>
-<html>
 <head>
 <title>Site Internet de Fontaine</title>
 <link rel="icon" type="image/icon" href="./Images/logo.webp" >
@@ -8,7 +7,7 @@
 
 <style>
 body{
-	background-image: url("./Home/Images/fontaine2.png");
+	background-image: url("./Images/fontaine2.png");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -131,12 +130,14 @@ section .wave::after {
 
 </style>
 <body>
-<div class="nav">  <ul>
+<div class="nav">  
+<ul>
   <li><a href="index.php">Home</a></li>
   <li><a href="./News.php">News</a></li>
   <li><img src="./Images/logo.webp" width="64px" height="64px" ></li>
   <li><a href="./Archon.php">Artworks</a></li>
   <li ><a href="./About.php">About</a></li>
+  <li><a href="./guestbook.php">Update Me!</a></li>
 </ul>
 </div>
 
